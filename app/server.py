@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1hJtYcLUj9CQapBbRqU9vojobEznkwhI8'
-export_file_name = 'birds_v1.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1U3AKktldCXan4NfRm-rq-70YOBCYNnGJ'
+export_file_name = 'birds_v2.pkl'
 
-classes = ['scarlet_tanager', 'baltimore_oriole', 'northern_cardinal', 'brown_headed_cowbird', 'red_winged_blackbird', 'house_finch', 'dark_eyed_junco', 'purple_finch']
+classes = ['scarlet_tanager', 'baltimore_oriole', 'northern_cardinal', 'brown_headed_cowbird', 'red_winged_blackbird', 'house_finch', 'dark_eyed_junco', 'purple_finch', 'blue_jay', 'cedar_waxwing', 'northern_mockingbird', 'gray_catbird', 'yellow_warbler']
 path = Path(__file__).parent
 
 app = Starlette()
